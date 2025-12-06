@@ -1,3 +1,6 @@
 git clone https://github.com/lelik-WEB/is23-chernyak-repo.git
-git init
-git commit -am "first commit"
+cd is23-chernyak-repo
+git checkout -b fix-bug-1
+git add .
+git commit -m "first commit. Closes #1"
+git push origin fix-bug-1
